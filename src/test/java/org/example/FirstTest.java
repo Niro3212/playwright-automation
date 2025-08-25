@@ -44,7 +44,7 @@ public class FirstTest {
         calendarPage.clickCreateEventButton();
         calendarPage.verifyNewEventPageIsVisible();
 
-        // 3. Добавлено ожидание 3 секунды
+        // 3. Добавлено ожидание 3 секунды.
         page.waitForTimeout(3000);
 
         System.out.println("Create event test passed successfully!");
